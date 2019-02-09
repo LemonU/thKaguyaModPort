@@ -28,6 +28,15 @@ public class THKaguyaMod
         public ItemStack getTabIconItem() {
             return new ItemStack(ModBlocks.getItemBlocks()[0]);
         }
+
+    });
+
+    private static final CreativeTabs SPELLCARDS_TAB = (new CreativeTabs("spellcards"){
+    
+        @Override
+        public ItemStack getTabIconItem() {
+            return null;
+        }
     });
 
     @Mod.Instance
@@ -58,5 +67,10 @@ public class THKaguyaMod
     public static final CreativeTabs getModCreativeTab()
     {
         return THKAGUYAMOD_TAB;
+    }
+
+    public static final CreativeTabs getSpellcardTabl()
+    {
+        return SPELLCARDS_TAB;
     }
 }
