@@ -54,6 +54,16 @@ public class ModBlocks {
                                                                                     "inventory")
                                                     );   
         }
-	}
+    }
+
+    public static final Block[] getBlocks()
+    {
+        return BLOCKS;
+    }
+    
+    public static final Item[] getItemBlocks()
+    {
+        return ITEMBLOCKS;
+    }
     
 }

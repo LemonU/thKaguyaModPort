@@ -1,7 +1,7 @@
 package lemonu.thkaguyamodport.block;
 
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
+// import net.minecraft.creativetab.CreativeTabs;
 
 /**
  * BlockDanmakuCraftingTable
@@ -17,7 +17,7 @@ public class BlockDanmakuCraftingTable extends BlockBase
         setResistance(1.0F);
         setLightLevel(1.0F);
 
-        setCreativeTab(CreativeTabs.DECORATIONS);
+        // setCreativeTab(CreativeTabs.DECORATIONS);
     }
 
 }

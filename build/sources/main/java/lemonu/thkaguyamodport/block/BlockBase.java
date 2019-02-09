@@ -20,6 +20,8 @@ public abstract class BlockBase extends Block
 
         setRegistryName(THKaguyaMod.MODID, NAME);
         setUnlocalizedName(THKaguyaMod.MODID + ":" + NAME);
+
+        setCreativeTab(THKaguyaMod.getModCreativeTab());
     }
     
     public final String getBlockName()
