@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+
+    "textures": {
+        "all": "thkaguyamodport:blocks/laser_crafting_table"
+    }
+}

@@ -4,6 +4,7 @@ import java.util.stream.Stream;
 
 import lemonu.thkaguyamodport.block.BlockDanmakuCraftingTable;
 import lemonu.thkaguyamodport.block.BlockDivineSpirit;
+import lemonu.thkaguyamodport.block.BlockLaserCraftingTable;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -22,6 +23,7 @@ public class ModBlocks {
     private static final Block[] BLOCKS = 
     {
         new BlockDanmakuCraftingTable(),
+        new BlockLaserCraftingTable(),
         new BlockDivineSpirit()
     };
 
