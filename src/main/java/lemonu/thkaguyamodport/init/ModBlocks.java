@@ -5,9 +5,14 @@ import java.util.stream.Stream;
 import lemonu.thkaguyamodport.block.BlockDanmakuCraftingTable;
 import lemonu.thkaguyamodport.block.BlockDivineSpirit;
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 /**
  * ModBlocks
@@ -34,6 +39,19 @@ public class ModBlocks {
     public static void registerItemBlocks(RegistryEvent.Register<Item> event)
     {
         event.getRegistry().registerAll(ITEMBLOCKS);
+	}
+
+    @SideOnly(Side.CLIENT)
+    public static void registerModels(ModelRegistryEvent event)
+    {
+        for (Item item : ITEMBLOCKS)
+        {
+            ModelLoader.setCustomModelResourceLocation(item,
+                                                        0,
+                                                        new ModelResourceLocation(item.getRegistryName(), 
+                                                                                    "inventory")
+                                                    );   
+        }
 	}
     
 }
