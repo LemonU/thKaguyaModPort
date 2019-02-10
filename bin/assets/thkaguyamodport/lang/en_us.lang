@@ -2,5 +2,7 @@ tile.thkaguyamodport:danmaku_crafting_table.name=Danmaku Crafting Table
 tile.thkaguyamodport:laser_crafting_table.name=Laser Crafting Table
 tile.thkaguyamodport:divine_spirit.name=Divine Spirit
 
+item.thkaguyamodport:hourai_jeweled_branch.name=Hourai Jeweled Branch
+
 itemGroup.thkaguyamodport=Itutu No Nandai MOD+
 itemGroup.spellcards=Spell Cards

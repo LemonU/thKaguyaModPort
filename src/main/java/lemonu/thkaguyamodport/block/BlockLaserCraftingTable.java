@@ -1,5 +1,7 @@
 package lemonu.thkaguyamodport.block;
 
+import lemonu.thkaguyamodport.bases.BlockBase;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 // import net.minecraft.creativetab.CreativeTabs;
 
@@ -17,7 +19,7 @@ public class BlockLaserCraftingTable extends BlockBase
         setResistance(1.0F);
         setLightLevel(1.0F);
 
-        // setCreativeTab(CreativeTabs.DECORATIONS);
+        setSoundType(SoundType.PLANT);
     }
     
 }

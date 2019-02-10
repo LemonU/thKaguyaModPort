@@ -1,0 +1,150 @@
+[22:37:43] [main/INFO] [GradleStart]: Extra: []
+[22:37:43] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/lassa/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:37:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:37:43] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:37:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:37:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:37:43] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[22:37:43] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_202, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_202\jre
+[22:37:43] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[22:37:43] [main/ERROR] [FML]: Full: C:\Users\lassa\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[22:37:43] [main/ERROR] [FML]: Trimmed: c:/users/lassa/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[22:37:43] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:37:43] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[22:37:45] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[22:37:45] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[22:37:45] [main/INFO] [FML]: Searching C:\Users\lassa\Documents\vscode-workspace\thKaguyaModPort\run\.\mods for mods
+[22:37:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:37:45] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[22:37:45] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[22:37:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:37:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:37:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:37:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:37:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:37:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:37:46] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[22:37:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:37:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:37:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:37:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:37:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:37:47] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:37:48] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player863
+[22:37:50] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[22:37:50] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[22:37:51] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 208398088 bytes (198 MB) / 384827392 bytes (367 MB) up to 1892155392 bytes (1804 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.5.0 - Build 24.20.100.6293' Renderer: 'Intel(R) UHD Graphics 620'
+[22:37:51] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[22:37:51] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:37:51] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[22:37:52] [main/INFO] [FML]: Searching C:\Users\lassa\Documents\vscode-workspace\thKaguyaModPort\run\.\mods for mods
+[22:37:54] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[22:37:54] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, thkaguyamodport] at CLIENT
+[22:37:54] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, thkaguyamodport] at SERVER
+[22:37:54] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 75060300 nanos
+[22:37:54] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Itutu No Nandai MOD+ Port
+[22:37:54] [main/INFO] [FML]: Processing ObjectHolder annotations
+[22:37:54] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[22:37:54] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:37:54] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:37:55] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:37:55] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:37:55] [main/INFO] [FML]: Applying holder lookups
+[22:37:55] [main/INFO] [FML]: Holder lookups applied
+[22:37:55] [main/INFO] [FML]: Applying holder lookups
+[22:37:55] [main/INFO] [FML]: Holder lookups applied
+[22:37:55] [main/INFO] [FML]: Applying holder lookups
+[22:37:55] [main/INFO] [FML]: Holder lookups applied
+[22:37:55] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[22:37:55] [main/INFO] [FML]: Applying holder lookups
+[22:37:55] [main/INFO] [FML]: Holder lookups applied
+[22:37:55] [main/INFO] [FML]: Injecting itemstacks
+[22:37:55] [main/INFO] [FML]: Itemstack injection complete
+[22:37:58] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[22:37:58] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[22:37:58] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:37:58] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[22:37:58] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[22:38:02] [main/INFO] [FML]: Max texture size: 8192
+[22:38:03] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[22:38:03] [main/ERROR] [FML]: Exception loading model for variant thkaguyamodport:hourai_jeweled_branch#inventory for item "thkaguyamodport:hourai_jeweled_branch", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model thkaguyamodport:item/hourai_jeweled_branch with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflec[22:38:26] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: com.mojang.authlib.GameProfile@4697139[id=<null>,name=Player863,properties={},legacy=false] (/127.0.0.1:54165) lost connection: Disconnected
+od.java:498) ~[?:1.8.0_202]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: thkaguyamodport:models/item/hourai_jeweled_branch.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[22:38:03] [main/ERROR] [FML]: Exception loading model for variant thkaguyamodport:hourai_jeweled_branch#inventory for item "thkaguyamodport:hourai_jeweled_branch", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model thkaguyamodport:hourai_jeweled_branch#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[22:38:04] [main/INFO] [FML]: Applying holder lookups
+[22:38:04] [main/INFO] [FML]: Holder lookups applied
+[22:38:04] [main/INFO] [FML]: Injecting itemstacks
+[22:38:04] [main/INFO] [FML]: Itemstack injection complete
+[22:38:04] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[22:38:04] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[22:38:04] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[22:38:05] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[22:38:24] [main/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to localhost, 25565
+[22:38:53] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[22:38:53] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[22:38:53] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

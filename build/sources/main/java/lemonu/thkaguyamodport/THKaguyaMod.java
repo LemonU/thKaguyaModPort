@@ -10,7 +10,6 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 // import org.apache.logging.log4j.Logger;
 
-import lemonu.thkaguyamodport.block.BlockDanmakuCraftingTable;
 import lemonu.thkaguyamodport.init.ModBlocks;
 import lemonu.thkaguyamodport.proxy.CommonProxy;
 
@@ -29,8 +28,18 @@ public class THKaguyaMod
         public ItemStack getTabIconItem() {
             return new ItemStack(ModBlocks.getItemBlocks()[0]);
         }
-    });
 
+    });
+/*
+    private static final CreativeTabs SPELLCARDS_TAB = (new CreativeTabs("spellcards"){
+    
+        @Override
+        public ItemStack getTabIconItem() {
+            return null;
+        }
+
+    });
+*/
     @Mod.Instance
     public static THKaguyaMod instance = new THKaguyaMod();
 
@@ -60,4 +69,10 @@ public class THKaguyaMod
     {
         return THKAGUYAMOD_TAB;
     }
+/*
+    public static final CreativeTabs getSpellcardTabl()
+    {
+        return SPELLCARDS_TAB;
+    }
+*/
 }

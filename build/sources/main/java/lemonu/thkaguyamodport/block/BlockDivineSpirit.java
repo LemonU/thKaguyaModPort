@@ -1,7 +1,8 @@
 package lemonu.thkaguyamodport.block;
 
+import lemonu.thkaguyamodport.bases.BlockBase;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-// import net.minecraft.creativetab.CreativeTabs;
 
 /**
  * BlockDivineSpirit
@@ -17,7 +18,7 @@ public class BlockDivineSpirit extends BlockBase
         setResistance(2000.0F);
         setLightLevel(8F/15F);
 
-        // setCreativeTab(CreativeTabs.DECORATIONS);
+        setSoundType(SoundType.SNOW);
     }
     
 }

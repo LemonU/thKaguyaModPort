@@ -30,15 +30,16 @@ public class THKaguyaMod
         }
 
     });
-
+/*
     private static final CreativeTabs SPELLCARDS_TAB = (new CreativeTabs("spellcards"){
     
         @Override
         public ItemStack getTabIconItem() {
             return null;
         }
-    });
 
+    });
+*/
     @Mod.Instance
     public static THKaguyaMod instance = new THKaguyaMod();
 
@@ -68,9 +69,10 @@ public class THKaguyaMod
     {
         return THKAGUYAMOD_TAB;
     }
-
+/*
     public static final CreativeTabs getSpellcardTabl()
     {
         return SPELLCARDS_TAB;
     }
+*/
 }
