@@ -1,5 +1,7 @@
 package lemonu.thkaguyamodport.init;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.stream.Stream;
 
 import lemonu.thkaguyamodport.block.BlockDanmakuCraftingTable;
@@ -23,9 +25,16 @@ public class ModBlocks {
     private static final Block[] BLOCKS = 
     {
         new BlockDanmakuCraftingTable(),
-        new BlockLaserCraftingTable(),
-        new BlockDivineSpirit()
+        new BlockLaserCraftingTable()
+        // new BlockDivineSpirit()
     };
+
+    private static final Map<String, Block> BLOCKS_MAP = new HashMap<String, Block>();
+    static{
+        for(Block block : BLOCKS) {
+            BLOCKS_MAP.put(block.getRegistryName().toString().substring(16), block);
+        }
+    }
 
     private static final Item[] ITEMBLOCKS = Stream.of(BLOCKS)
                                             .map(block -> 
@@ -59,6 +68,10 @@ public class ModBlocks {
     public static final Block[] getBlocks()
     {
         return BLOCKS;
+    }
+
+    public static final Block getBlock(String blockName) {
+        return BLOCKS_MAP.get(blockName);
     }
     
     public static final Item[] getItemBlocks()

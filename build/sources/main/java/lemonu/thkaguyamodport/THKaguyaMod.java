@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 // import org.apache.logging.log4j.Logger;
 
-import lemonu.thkaguyamodport.init.ModBlocks;
+import lemonu.thkaguyamodport.init.ModItems;
 import lemonu.thkaguyamodport.proxy.CommonProxy;
 
 @Mod(modid = THKaguyaMod.MODID, name = THKaguyaMod.MODNAME, version = THKaguyaMod.MODVERSION)
@@ -26,7 +26,7 @@ public class THKaguyaMod
     
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(ModBlocks.getItemBlocks()[0]);
+            return new ItemStack(ModItems.getItem("hourai_jeweled_branch"));
         }
 
     });
